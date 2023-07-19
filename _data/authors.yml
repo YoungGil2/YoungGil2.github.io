@@ -8,8 +8,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    안녕하세요. 하고싶은게 많은 개린이입니다.
-
+    안녕하세요. 하고싶은게 많은 개린이입니다.<br/>
+    
   # This photo will be used in the about section
   picture:
     path:            https://via.placeholder.com/128x128

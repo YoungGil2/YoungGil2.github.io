@@ -49,22 +49,28 @@ author:
 
 # Add links to the sidebar.
 menu:
-  # - title:             Example
-  #   url:               /example/
+  - title:             JavaScript
+    url:               /javascript/
+  # - title:             Posts
+  #   url:               /posts/
+  - title:             Canvas
+    url:               /canvas/
   # - title:             Documentation
   #   url:               /docs/
+  - title:             Chinese
+    url:               /chinese
   - title:             About
     url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  # - title:             LICENSE
+  #   url:               /LICENSE/
+  # - title:             NOTICE
+  #   url:               /NOTICE/
+  # - title:             CHANGELOG
+  #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
@@ -80,6 +86,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
+# ! 빌드해서 올릴때는 주석 수정 필요 !
 # theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
@@ -89,7 +96,7 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 # accent_image:          /assets/img/sidebar-bg.jpg
-accent_image:          /assets/img/blog/spring.jpg
+accent_image:          /assets/img/blog/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
