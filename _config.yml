@@ -89,8 +89,8 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # ! 빌드해서 올릴때는 주석 수정 필요 !
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
