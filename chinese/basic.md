@@ -4,7 +4,7 @@ title: 성모, 운모, 성조를 알아보자
 date: 2023-07-19 10:52:00 +0900
 ---
 
-0. this unordered seed list will be replaced by the toc
+0. 
 {:toc}
 
 한글의 자음, 모음에 해당 되는 중국어의 발음 표기법
