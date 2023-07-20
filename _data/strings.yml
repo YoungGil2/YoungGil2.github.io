@@ -14,7 +14,7 @@ home:                  Home
 pages:                 Pages
 posts:                 Posts
 about:                 About
-related_posts:         Related Posts
+related_posts:         관련 글
 other_projects:        Other Projects
 comments:              Comments
 jump_to:               Jump to
@@ -33,7 +33,7 @@ templates:             Templates (for web app)
 present:               present
 toc:                   목록
 note:                  Note
-description:           Description
+description:           설명
 search:                Search
 search_placeholder:    Type something…
 
