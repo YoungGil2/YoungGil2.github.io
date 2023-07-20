@@ -2,6 +2,9 @@
 layout: page
 title: 중국어 공부
 description: 중국어 공부 내용 정리
+lastmod: 2023-07-20 12:52:00 +0900
+sitemap:
+  changefreq: weekly
 ---
 
 ## 기초

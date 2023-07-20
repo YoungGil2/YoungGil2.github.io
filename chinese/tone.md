@@ -2,6 +2,9 @@
 layout: page
 title: 성조을 알아보자
 date: 2023-07-20 10:52:00 +0900
+lastmod: 2023-07-20 12:52:00 +0900
+sitemap:
+  changefreq: weekly
 ---
 
 0. 

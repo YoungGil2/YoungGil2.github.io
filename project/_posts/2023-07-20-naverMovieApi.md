@@ -3,6 +3,9 @@ layout: post
 title: 네이버 영화 API를 사용해보자
 description: >
   Naver Open Api를 이용하여 영화 검색해보자!
+lastmod: 2023-07-20 12:52:00 +0900
+sitemap:
+  changefreq: weekly
 ---
 
 0. 
