@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url:                   https://yeong-gil.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -350,7 +350,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: VCOAfWbh9_YrTYpBF1pjdNUexJEPTt60E6X9gvzytP0
+google_site_verification: "VCOAfWbh9_YrTYpBF1pjdNUexJEPTt60E6X9gvzytP0"
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
