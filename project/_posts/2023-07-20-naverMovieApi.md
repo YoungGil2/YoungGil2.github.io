@@ -26,7 +26,7 @@ API는 애플리케이션 소프트웨어를 빌드하고 통합하기 위한 �
 [네이버 OPEN API 영화](https://developers.naver.com/docs/serviceapi/search/movie/movie.md)
 {:.note title="링크"}
 
-네이버에는 여러가지 OPEN API가 있습니다. 토이프로젝트로 딱인 API로 저는 영화 API로 정했습니다.
+네이버에는 여러가지 OPEN API가 있습니다. 그 중에 영화 API를 사용해 보겠습니다.
 
 react, typescript, node.js
 {:.note title="환경"}
@@ -91,6 +91,8 @@ app.listen(port, ()=> {
 ~~~
 
 이렇게 네이버 API와 통신할 서버를 만들었습니다. `/api`에 get 요청을 할 프론트 부분를 만들겠습니다.
+
+## react
 
 ~~~js
 // file: "/src/app.tsx"
