@@ -1,6 +1,6 @@
 ---
 layout: post
-title: react, node.js로 만드는 채팅앱
+title: react, node.js로 만드는 채팅앱 - 1 
 date: 2023-07-20 12:52:00 +0900
 description: >
   typescript, react, node.js, socket.io, material-UI
@@ -25,10 +25,32 @@ typescript, react, node.js, socket.io, material-UI
 npx create-react-app "이름" -template typescript
 ~~~
 
-socket.io 설치
+
+## Socket IO
+
+[공식 문서](https://socket.io/docs/v4/){:target="_blank"}
+{:.note title="링크"}
+
+Socket.IO는 클라이언트와 서버 간의 짧은 대기 시간 , 양방향 및 이벤트 기반 통신을 가능하게 하는 라이브러리입니다 .
 
 ~~~markdown
 yarn add socket.io
+~~~
+
+진행하기전에 socket.io 메소들 몇가지를 알려드리겠습니다.
+
+서버
+~~~js
+io.on('connection', (socket) => { // 클라이언트로부터 수신시 on
+  socket.emit('connection', '연결됨') // 클라이언트로 발신 emit
+})
+~~~
+
+클라이언트
+~~~js
+socket.on('connection', (data) => { // 서버로부터 수신시 on
+  console.log(data) // 연결됨
+})
 ~~~
 
 ## 서버생성
@@ -120,9 +142,10 @@ const io = require("socket.io")(server, {
 }); 
 const port = process.env.PORT || 3005;
 
+// 웹소켓 연결
 io.on("connection", (socket) => {
   console.log('새로운 클라이언트가 입장하였습니다.');
-  socket.emit('connection');
+  socket.emit('connection'); // 클라이언트로 전달
 });
 
 server.listen(port, ()=>{
@@ -141,7 +164,7 @@ const SERVER = "localhost:3005";
 
 function App() {
   const socket = SocketClient(SERVER);
-  socket.on("connection", () => {
+  socket.on("connection", () => { // 서버로 부터 수신
     console.log("백엔드와 연결되었습니다.")
   });
   return (
