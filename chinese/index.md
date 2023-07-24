@@ -11,5 +11,5 @@ sitemap:
 * [성모, 운모, 병음]{:.heading.flip-title} --- 기본기
 * [성조]{:.heading.flip-title} --- 기본기
 
-[성모, 운모, 병음]: basic.md
-[성조]: tone.md
+[성모, 운모, 병음]: /chinese/2023-07-19-pinyin/
+[성조]: /chinese/2023-07-20-tone/
