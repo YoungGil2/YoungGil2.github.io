@@ -1,6 +1,6 @@
 ---
 layout: post
-title: react, node.js로 만드는 채팅앱 - 1 
+title: react, node.js, socket.io로 만드는 채팅앱 - 1 
 date: 2023-07-20 12:52:00 +0900
 description: >
   typescript, react, node.js, socket.io, material-UI
@@ -31,7 +31,7 @@ npx create-react-app "이름" -template typescript
 [공식 문서](https://socket.io/docs/v4/){:target="_blank"}
 {:.note title="링크"}
 
-Socket.IO는 클라이언트와 서버 간의 짧은 대기 시간 , 양방향 및 이벤트 기반 통신을 가능하게 하는 라이브러리입니다 .
+Socket.IO는 클라이언트와 서버 간의 짧은 대기 시간, 양방향 및 이벤트 기반 통신을 가능하게 하는 라이브러리입니다.
 
 ~~~markdown
 yarn add socket.io
@@ -192,3 +192,5 @@ export default App;
 
 브라우저 콘솔에는 "백엔드와 연결되었습니다." 메시자가 출력 되어야 합니다.
 간단한 코드 몇줄로 nodejs + express로 만든 서버와 프론트(react-app)을 연결해 보았습니다.
+
+다음에는 대화방에 입장 후 접속, 퇴장 메시지까지 노출하는 부분까지 구현해보겠습니다.
