@@ -17,4 +17,8 @@ description: >
 
 ## Vue
 
+* [Vuex(상태관리 패턴)]
+
+[Vuex(상태관리 패턴)]: ./2023-08-01-vuex/
+
 ## React
