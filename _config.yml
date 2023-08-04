@@ -58,6 +58,8 @@ menu:
     url:               /project/
   # - title:             Documentation
   #   url:               /docs/
+  - title:             IT
+    url:               /it/
   - title:             Chinese
     url:               /chinese
   - title:             About
