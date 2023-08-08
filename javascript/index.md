@@ -18,7 +18,9 @@ description: >
 ## Vue
 
 * [Vuex(상태관리 패턴)]
+* [Vue + Typescript]
 
+[Vue + Typescript]: ./2023-08-07-vue-typescript/
 [Vuex(상태관리 패턴)]: ./2023-08-01-vuex/
 
 ## React
