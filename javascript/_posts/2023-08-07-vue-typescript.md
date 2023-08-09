@@ -82,7 +82,7 @@ class형 작업을 위해 라이브러리 몇가지를 같이 설명할 것이�
 
 라이브러리를 구성을 확인해보면 `vue-class-component`에서 제공되는 것의 대부분을 데이코레이터 함수로 만들어둔 라이브러리 정도로 보인다. 
 
-### Decorator란?
+### Decorator 란?
 
 [Decorator](https://www.typescriptlang.org/docs/handbook/decorators.html){:targe="_blank"}
 {:.note title="공식 문서"}
