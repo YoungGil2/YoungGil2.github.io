@@ -9,8 +9,10 @@ description: >
 
 ## Typescript
 
+* [타입스크립트 정리]
 * [추상 클래스(Abstract class)]
 
+[타입스크립트 정리]: ./2023-08-29-typescript/
 [추상 클래스(Abstract class)]: ./2023-07-26-abstract/
 
 ## Vanilla 
