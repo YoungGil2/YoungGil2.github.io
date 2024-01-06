@@ -52,6 +52,8 @@ menu:
     url:               /javascript/
   # - title:             Posts
   #   url:               /posts/
+  - title:             Css
+    url:               /css/
   - title:             Canvas
     url:               /canvas/
   - title:             Project
