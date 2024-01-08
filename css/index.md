@@ -10,7 +10,7 @@ description: >
 ## Library
 
 * [styled-components]
-<!-- * [tailwind] -->
+* [tailwind]
 
 [styled-components]: ./2024-01-06-styled-components/
-<!-- [tailwind]: ./2024-01-06-tailwind/ -->
+[tailwind]: ./2024-01-07-tailwind/

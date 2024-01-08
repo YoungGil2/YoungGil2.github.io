@@ -5,7 +5,7 @@ date: 2024-01-06 16:23:00 +0900
 description: >
   styled-components 사용법 및 사용 후기
 hide_description: true
-lastmod: 2024-01-06 16:23:00 +0900
+lastmod: 2024-01-07 17:50:00 +0900
 sitemap:
   changefreq: weekly
 ---
@@ -22,7 +22,7 @@ styled-components가 무엇인지, 사용법은 어떻게 되는지 그리고 �
 
 간단하게 말하면 스크립트 파일에서 CSS를 사용할수 있게 해주는 `CSS-in-JS` 스타일 라이브러리 입니다. 주로 react 프로젝트에서 많이 사용하는 걸로 알고 있습니다.
 
-[styeld-components](http://https://styled-components.com/){:target="_blank"}
+[styeld-components](https://styled-components.com/){:target="_blank"}
 {:.note title="링크"}
 
 ## 사용법
@@ -42,7 +42,7 @@ const StyledButton = styled.button<StyledButtonProps>`
 
 function ButtonComponent() {
   return (
-    <StyledButton $color="red" />
+    <StyledButton type="button" $color="red">Click!</StyledButton>
   );
 }
 ~~~
@@ -88,7 +88,7 @@ const StyledBlueButton = styled(StyledButton)`
 
 function ButtonComponent() {
   return (
-     <StyledButton $color="red" as="a" />
+     <StyledButton type="button" $color="red" as="a">Click!</StyledButton>
   );
 }
 ~~~
@@ -108,6 +108,7 @@ function ButtonComponent() {
 - 스크립트 파일이 다소 복잡해질 수 있다.
 - 스크립트 런타임에 모든 것을 처리하기 때문에 css 파일로 관리하는 것 보다는 느린 성능을 가짐
 - server side rendering시에 잠깐 스타일이 누락되어 보여지는 이슈
+- 스타일 하나를 주기 위해서도 컴포넌트를 만들어야한다.
 
 해당 이슈는 `CSS-in-JS` 방식에서 발생하는 이슈이다. 별도의 설정으로 해결 가능함
 

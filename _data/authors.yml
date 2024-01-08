@@ -8,12 +8,18 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    안녕하세요. 하고싶은게 많은 개린이입니다.<br/>
-    제가 공부하고, 정리한 내용을 기록하며 공유하는 곳입니다.<br/>
+    안녕하세요. 제가 실무에서 얻은 정보나 공부한 내용을 기록하며 공유하는 곳입니다.<br/>
     태클 환영! 잘못된 정보가 있다면 알려주시면 감사하겠습니다!
     <br/>
     <br/>
-    "새로운 프로그래밍 언어를 배우는 유일한 방법은 그 언어로 프로그램을 만드는 것이다."<br/> - 데니스 리치(C언어와 UNIX 운영체제의 창시자)
+    한양사이버대학교 컴퓨터공학과 2023.03 ~
+    <br/>
+    <br/>
+    Ecomice IT기술연구소 2020.08 ~ 2020.11
+    <br/>
+    D&D Lab Dpromotion 기업부설연구소 개발팀 2021.03 ~
+
+
     
   # This photo will be used in the about section
   picture:
