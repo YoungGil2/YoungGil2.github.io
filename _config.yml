@@ -16,7 +16,7 @@ url: https://younggil2.github.io
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang: ko
+lang:                   ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title: Younggil Kim
@@ -30,7 +30,7 @@ description: >
 tagline: 개발하며 습득한 지식을 정리하는 곳
 
 # A list of keywords for your blog
-keywords: []
+keywords:              [frontend, javscript, react, canvas, css, tailwind]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -40,8 +40,8 @@ logo: /assets/img/me/spring.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: <firstname> <lastname>
-  email: <mail@domain.tld>
+  name:                김영길
+  email:               shfjrk1868@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
