@@ -11,9 +11,11 @@ description: >
 
 * [타입스크립트 정리]
 * [추상 클래스(Abstract class)]
+* [TypeScript 유틸리티 타입 정리]
 
 [타입스크립트 정리]: ./2023-08-29-typescript/
 [추상 클래스(Abstract class)]: ./2023-07-26-abstract/
+[TypeScript 유틸리티 타입 정리]: ./2026-01-18-typescript-advanced/
 
 ## Vanilla 
 
@@ -32,4 +34,3 @@ description: >
 
 [Jotai(상태 관리 패턴)]: ./2025-04-20-jotai/
 [리액트 랜더링 프로세스(브라우저 렌더링 프로세스)]: ./2025-07-01-react-rendering/
-
