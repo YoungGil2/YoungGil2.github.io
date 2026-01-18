@@ -10,4 +10,4 @@ description: >
 
 * [Laravel Request Lifecycle (라라벨 요청 생명주기)]
 
-[Laravel Request Lifecycle (라라벨 요청 생명주기)]: ../php/2026-01-18-laravel-lifecycle/
+[Laravel Request Lifecycle (라라벨 요청 생명주기)]: /backend/2026-01-18-laravel-lifecycle/
