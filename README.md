@@ -1,8 +1,6 @@
 # 개발 블로그
 # YoungGil's Tech Blog
 
-로컬 서버
-- bundle exec jekyll serve
 개인 학습 내용 정리, 기술 지식 공유, 프로젝트 경험 기록을 위한 기술 블로그입니다.
 프론트엔드(React, Vue)와 백엔드(PHP, Laravel), 알고리즘, 프로젝트 회고 등을 폭넓게 다룹니다.
 
