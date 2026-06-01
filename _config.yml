@@ -78,6 +78,8 @@ menu:
     url: /it/
   - title: Chinese
     url: /chinese
+  - title: Resume
+    url: /resume/
   - title: About
     url: /about/
 
