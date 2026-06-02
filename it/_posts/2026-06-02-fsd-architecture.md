@@ -80,6 +80,50 @@ src/
 
 각 레이어는 **단방향 의존성** 규칙을 따릅니다. 상위 레이어는 하위 레이어를 참조할 수 있지만, 하위 레이어는 상위 레이어를 참조할 수 없습니다. 이 규칙 하나가 의존성 꼬임을 구조적으로 막아줍니다.
 
+## 트러블슈팅: Next.js와 FSD의 충돌
+
+[Next.js와 함께 사용하기 - 공식 문서](https://fsd.how/kr/docs/guides/tech/with-nextjs/){:target="_blank"}
+{:.note title="링크"}
+
+FSD를 Next.js에 적용하면서 가장 먼저 부딪힌 문제는 `app` 레이어 충돌이었습니다.
+
+- **FSD의 `app` 레이어**: 전역 설정, 프로바이더, 스타일 초기화 등 앱 전체를 담당
+- **Next.js의 `app` 폴더**: 파일 시스템 기반 라우팅을 담당
+
+같은 이름이지만 역할이 완전히 다릅니다. Next.js는 `app/` 폴더 구조로 라우팅을 결정하기 때문에, FSD 구조와 그대로 섞으면 충돌이 생깁니다.
+
+### pages 레이어도 문제였다
+
+FSD의 `pages` 레이어 역시 Next.js의 Pages Router와 이름이 겹칩니다. `src/pages`를 두면 Next.js가 이를 Pages Router로 인식해 빌드가 실패합니다.
+
+이를 해결하기 위해 FSD의 `pages` 레이어를 **`views`로 이름을 바꿨습니다.** 의미상으로도 "페이지를 구성하는 뷰 컴포넌트"에 가까워서 오히려 더 자연스러웠습니다.
+
+### 최종 구조
+
+루트의 `app/`은 Next.js 라우팅 전용으로만 쓰고, 실제 컴포넌트는 `src/` 아래 FSD 구조로 분리했습니다.
+
+```
+(루트)
+├── app/              # Next.js 라우팅 전용 (page.tsx, layout.tsx만)
+│   └── (route)/
+│       └── page.tsx  # → src/views 컴포넌트를 import해서 연결
+└── src/
+    ├── app/          # FSD app 레이어 (전역 설정, 프로바이더)
+    ├── views/        # FSD pages 레이어 대체 (실제 페이지 컴포넌트)
+    ├── widgets/
+    ├── entities/
+    └── shared/
+```
+
+루트의 `app/page.tsx`는 라우팅 연결만 담당합니다.
+
+```tsx
+// app/(route)/page.tsx
+export { default } from '@/views/home/ui/HomePage';
+```
+
+이렇게 하면 Next.js의 라우팅 요구사항과 FSD 아키텍처를 모두 충족할 수 있습니다.
+
 ## 실제 적용 구조
 
 적용한 프로젝트의 구조를 간략하게 보면 이렇습니다.
