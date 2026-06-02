@@ -22,6 +22,7 @@ sitemap:
 - [GitHub 프로필 꾸미기: 나만의 개발자 포트폴리오 대문 만들기]
 - [GitHub Pages + Jekyll로 블로그 만들기: 나만의 개발 공간 직접 구축하기]
 - [프론트엔드 개발자 VSCode 익스텐션 정리]
+- [FSD 아키텍처 실무 적용기: Next.js 프로젝트에 도입한 이유와 달라진 것들]
 
 [API, SDK 란?]: ./2023-08-04-api-sdk/
 [팀 KPT 회고 방법론 도입]: ./2024-07-13-kpt/
@@ -30,3 +31,4 @@ sitemap:
 [GitHub 프로필 꾸미기: 나만의 개발자 포트폴리오 대문 만들기]: ./2026-01-26-github-profile-decoration/
 [GitHub Pages + Jekyll로 블로그 만들기: 나만의 개발 공간 직접 구축하기]: ./2026-06-01-jekyll-github-pages/
 [프론트엔드 개발자 VSCode 익스텐션 정리]: ./2026-05-26-vscode-extensions/
+[FSD 아키텍처 실무 적용기: Next.js 프로젝트에 도입한 이유와 달라진 것들]: ./2026-06-02-fsd-architecture/
