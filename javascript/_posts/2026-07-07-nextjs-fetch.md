@@ -4,7 +4,7 @@ title: 'Next.js fetch — 기본 fetch가 어떻게 확장되었나'
 date: 2026-07-07 12:00:00 +0900
 description: >
   브라우저/Node.js 기본 fetch와 Next.js가 확장한 fetch의 차이를 캐싱 전략,
-  메모이제이션, Server/Client Component 동작 차이 중심으로 정리합니다.
+  Server/Client Component 동작 차이 중심으로 정리합니다.
 hide_description: true
 lastmod: 2026-07-07 12:00:00 +0900
 sitemap:
