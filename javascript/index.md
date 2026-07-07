@@ -33,3 +33,9 @@ description: >
 
 [Jotai(상태 관리 패턴)]: ./2025-04-20-jotai/
 [리액트 랜더링 프로세스(브라우저 렌더링 프로세스)]: ./2025-07-01-react-rendering/
+
+## Next.js
+
+- [Next.js fetch — 기본 fetch가 어떻게 확장되었나]
+
+[Next.js fetch — 기본 fetch가 어떻게 확장되었나]: ./2026-07-07-nextjs-fetch/
