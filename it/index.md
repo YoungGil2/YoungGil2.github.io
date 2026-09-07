@@ -34,3 +34,9 @@ sitemap:
 [Jekyll 블로그에 Hydejack 테마 적용하기: 나만의 블로그 꾸미기]: ./2026-06-05-jekyll-hydejack-theme/
 [프론트엔드 개발자 VSCode 익스텐션 정리]: ./2026-05-26-vscode-extensions/
 [FSD 아키텍처 실무 적용기: Next.js 프로젝트에 도입한 이유와 달라진 것들]: ./2026-06-02-fsd-architecture/
+
+## 자격증
+
+- [SQLD 합격 후기, 준비 방법]
+
+[SQLD 합격 후기, 준비 방법]: ./2026-09-07-sqld/
