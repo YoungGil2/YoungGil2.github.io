@@ -20,3 +20,9 @@ sitemap:
 
 [성모, 운모, 병음]: /chinese/2023-07-19-pinyin/
 [성조]: /chinese/2023-07-20-tone/
+
+## 단어
+
+- [HSK 1급 단어 150 정리]{:.heading.flip-title} --- HSK 1급 필수 단어 150개 정리
+
+[HSK 1급 단어 150 정리]: /chinese/2026-09-29-hsk1-vocab-150/
