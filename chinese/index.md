@@ -23,6 +23,6 @@ sitemap:
 
 ## 단어
 
-- [HSK 1급 단어 150 정리]{:.heading.flip-title} --- HSK 1급 필수 단어 150개 정리
+- [HSK 1급 단어 150 모음]{:.heading.flip-title} --- HSK 1급 단어 150개 모음
 
-[HSK 1급 단어 150 정리]: /chinese/2026-09-29-hsk1-vocab-150/
+[HSK 1급 단어 150 모음]: /chinese/2026-09-29-hsk1-vocab-150/
